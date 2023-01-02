@@ -11,6 +11,14 @@
     <h3 class="title">Book a flight</h3>
     <form action="#">
         <div class="form-input">
+            <label for="origin">Origin</label>
+            <input type="text" name="origin" id="origin"/>
+        </div>
+        <div class="form-input">
+            <label for="numpass">Number of Passenger</label>
+            <input type="number" name="numpass" id="numpass"/>
+        </div>
+        <div class="form-input">
             <label for="depart">Departure State</label>
             <input type="text" name="depart" id="depart"/>
         </div>
@@ -23,10 +31,15 @@
             <input type="date" name="departdate" id="departdate"/>
         </div>
         <div class="form-input">
+            <label for="returndate">Return date</label>
+            <input type="date" name="returndate" id="returndate"/>
+        </div>
+        <div class="form-input">
             <label for="bookamount">Amount</label>
             <input type="text" name="bookamount" id="bookamount"/>
         </div>
         <button class="btn-book">Book a flight</button>
+        <button class="btn-book">Create a flight</button>
     </form>
 </body>
 </html>
